@@ -1,10 +1,11 @@
 {
-  "name": "calendar_shared",
+  "name": "@carlostojal/calendar_shared",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node module containing the classes and types shared among several services.",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/carlostojal/calendar_shared#readme",
   "dependencies": {
+    "typescript": "^5.1.6",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
