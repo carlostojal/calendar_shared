@@ -1,6 +1,6 @@
 {
   "name": "@carlostojal/calendar_shared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node module containing the classes and types shared among several services.",
   "main": "build/index.js",
   "scripts": {
